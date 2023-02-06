@@ -1,0 +1,24 @@
+node_modules
+*.env
+!.env.sample
+coverage
+coverage.json
+typechain
+typechain-types
+
+# Hardhat files
+cache
+cache-zk
+artifacts-zk
+!artifacts/
+artifacts/*
+!artifacts/contracts/
+artifacts/contracts/*
+
+!artifacts/contracts/L1Contract.sol/
+artifacts/contracts/L1Contract.sol/*
+!artifacts/contracts/L1Contract.sol/L1Contract.json
+
+!artifacts/contracts/L2Contract.sol/
+artifacts/contracts/L2Contract.sol/*
+!artifacts/contracts/L2Contract.sol/L2Contract.json
